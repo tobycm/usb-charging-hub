@@ -742,6 +742,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "USB A Ports"
+		(exclude_from_sim no)
+		(at 211.582 161.544 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "5513c0a2-d36c-41a1-b60a-d8df2248accd")
+	)
 	(text "power led\n"
 		(exclude_from_sim no)
 		(at 35.814 49.022 0)
@@ -791,6 +801,16 @@
 			(type default)
 		)
 		(uuid "d12bcc75-79b9-40e5-9968-0d1b91d6631d")
+	)
+	(polyline
+		(pts
+			(xy 191.77 12.7) (xy 191.77 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5dbce2-c277-4a45-908a-6f6fcc9a2761")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
@@ -1144,6 +1164,48 @@
 		)
 	)
 	(sheet
+		(at 243.84 25.4)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2da112af-afb7-403c-9e60-4ad5bfa77c28")
+		(property "Sheetname" "usb a 2"
+			(at 243.84 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usba2.kicad_sch"
+			(at 243.84 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 22.86 88.9)
 		(size 30.48 17.78)
 		(exclude_from_sim no)
@@ -1228,6 +1290,48 @@
 		)
 	)
 	(sheet
+		(at 200.66 81.28)
+		(size 30.48 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f9ad1a1-bb83-4846-a791-784f660b5d8d")
+		(property "Sheetname" "usb a 5"
+			(at 200.66 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usba5.kicad_sch"
+			(at 200.66 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 66.04 88.9)
 		(size 31.75 17.78)
 		(exclude_from_sim no)
@@ -1270,6 +1374,48 @@
 		)
 	)
 	(sheet
+		(at 200.66 25.4)
+		(size 30.48 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cd18a35-eac9-4d54-ab2a-e3d56b6afb11")
+		(property "Sheetname" "usb a 1"
+			(at 200.66 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usba1.kicad_sch"
+			(at 200.66 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 109.22 88.9)
 		(size 33.02 17.78)
 		(exclude_from_sim no)
@@ -1307,6 +1453,90 @@
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 53.34)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a54cda6f-900d-4e20-87c5-c7a848c5341e")
+		(property "Sheetname" "usb a 4"
+			(at 243.84 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usba4.kicad_sch"
+			(at 243.84 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 53.34)
+		(size 30.48 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eea30002-3da2-4d48-9100-f6140008c051")
+		(property "Sheetname" "usb a 3"
+			(at 200.66 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usba3.kicad_sch"
+			(at 200.66 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(page "8")
 				)
 			)
 		)
