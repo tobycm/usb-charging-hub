@@ -758,6 +758,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "04e54dfe-f06f-40ed-b860-573373578cb0",
+      "Root"
+    ],
+    [
+      "3702e1cc-a1f7-4fdd-9600-0b11d7d9efb8",
+      "rp2350_power"
+    ],
+    [
+      "67983548-32e8-4c76-beda-27becdc558f3",
+      "rp2350b"
+    ],
+    [
+      "7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7",
+      "neopixels"
+    ],
+    [
+      "5742c913-e105-4d4e-8f73-4e0de26022fb",
+      "ti_usb_c"
+    ]
+  ],
   "text_variables": {}
 }
