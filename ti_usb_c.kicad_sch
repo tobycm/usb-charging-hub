@@ -2070,7 +2070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WQFN38_REF_TEX"
+		(property "Footprint" "TPS25751DREFR:WQFN38_REF_TEX"
 			(at 140.97 36.83 0)
 			(effects
 				(font
@@ -2238,7 +2238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db66ae80-984a-499c-983d-e11810adac11")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0111"
 			(at 147.32 36.83 0)
 			(effects
 				(font
@@ -2289,7 +2289,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/5742c913-e105-4d4e-8f73-4e0de26022fb"
-					(reference "#PWR0110")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -2305,7 +2305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eae35d3c-f2c3-48a3-bc34-6b89ad6f3cd6")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0110"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -2356,7 +2356,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/5742c913-e105-4d4e-8f73-4e0de26022fb"
-					(reference "#PWR0111")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)

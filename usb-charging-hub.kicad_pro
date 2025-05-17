@@ -764,40 +764,28 @@
       "Root"
     ],
     [
-      "3702e1cc-a1f7-4fdd-9600-0b11d7d9efb8",
-      "rp2350_power"
-    ],
-    [
       "67983548-32e8-4c76-beda-27becdc558f3",
       "rp2350b"
     ],
     [
       "7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7",
-      "neopixels"
-    ],
-    [
-      "5742c913-e105-4d4e-8f73-4e0de26022fb",
-      "ti_usb_c"
+      "Neopixel"
     ],
     [
       "6cd18a35-eac9-4d54-ab2a-e3d56b6afb11",
-      "usb a 1"
+      "USB A"
     ],
     [
-      "2da112af-afb7-403c-9e60-4ad5bfa77c28",
-      "usb a 2"
+      "cdc79840-31c5-4d0c-9732-2009c0e35a21",
+      "3.3V Buck Regulator"
     ],
     [
-      "eea30002-3da2-4d48-9100-f6140008c051",
-      "usb a 3"
+      "8b94d9f0-b4ab-48ff-a9ac-e3216038869f",
+      "5V Buck Regulator"
     ],
     [
-      "a54cda6f-900d-4e20-87c5-c7a848c5341e",
-      "usb a 4"
-    ],
-    [
-      "5f9ad1a1-bb83-4846-a791-784f660b5d8d",
-      "usb a 5"
+      "76114886-6b4c-40d8-9b64-a9a22ac4763d",
+      "USB C"
     ]
   ],
   "text_variables": {}

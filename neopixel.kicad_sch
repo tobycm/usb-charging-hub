@@ -974,7 +974,7 @@
 			(uuid "4b15585d-3bb8-4360-b396-7fe6659d05f0")
 		)
 		(instances
-			(project ""
+			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
 					(reference "J15")
 					(unit 1)
@@ -1110,7 +1110,7 @@
 			(uuid "db3ce2b2-632e-420f-9191-69f82d72b8aa")
 		)
 		(instances
-			(project ""
+			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
 					(reference "J3")
 					(unit 1)
@@ -1460,7 +1460,7 @@
 			(uuid "141f9f49-ed2c-4fe1-838d-180a36053945")
 		)
 		(instances
-			(project ""
+			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
 					(reference "#PWR067")
 					(unit 1)

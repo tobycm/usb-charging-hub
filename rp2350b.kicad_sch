@@ -5,6 +5,169 @@
 	(uuid "c5d0ce78-6966-4390-ab4f-2a52d58f68eb")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3349,6 +3512,12 @@
 		(uuid "08c0da81-2662-451d-b18b-2a1568a9917c")
 	)
 	(junction
+		(at 40.64 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0984ab66-c752-4f2a-a8b1-b4d6554b5483")
+	)
+	(junction
 		(at 259.08 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3607,6 +3776,16 @@
 			(type default)
 		)
 		(uuid "851f63ad-c09d-4012-918e-47ccadcbba0d")
+	)
+	(wire
+		(pts
+			(xy 40.64 118.11) (xy 40.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f988ddc-6910-425e-8760-8057a32a1d25")
 	)
 	(polyline
 		(pts
@@ -4124,6 +4303,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 137.16 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b93d16b-9298-466d-b68f-dd940f4b76dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QSPI_SD1"
 		(shape bidirectional)
 		(at 59.69 36.83 0)
@@ -4366,6 +4567,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_SDA"
+		(shape input)
+		(at 137.16 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fca7b489-1995-4dd3-8ae5-90e032a8934a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.8249 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QSPI_SCLK"
 		(shape input)
 		(at 175.26 52.07 0)
@@ -4398,7 +4621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "074c0d16-c84c-4ec6-8ffa-0024e90b1227")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 140.97 34.29 0)
 			(effects
 				(font
@@ -4449,7 +4672,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4465,7 +4688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08b07855-bd39-4381-b08a-8ead44a25fbf")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR057"
 			(at 207.01 118.11 0)
 			(effects
 				(font
@@ -4516,7 +4739,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR031")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4532,7 +4755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c983f13-8197-489e-8c7f-12aaf82e89ef")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR054"
 			(at 207.01 110.49 0)
 			(effects
 				(font
@@ -4583,7 +4806,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR018")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4617,7 +4840,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 58.42 85.09 0)
 			(effects
 				(font
@@ -4669,7 +4892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1541795c-f387-4461-9f9a-ceeec5f5fda3")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 124.46 110.49 0)
 			(effects
 				(font
@@ -4720,7 +4943,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4736,7 +4959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1694c414-6dc1-435a-88cc-a67192194b61")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR033"
 			(at 21.59 24.13 0)
 			(effects
 				(font
@@ -4786,7 +5009,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR022")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4802,7 +5025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17e28e68-42fa-431d-8561-8eba1cf611f7")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 121.92 128.778 0)
 			(effects
 				(font
@@ -4820,7 +5043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 124.46 129.54 0)
 			(effects
 				(font
@@ -4856,7 +5079,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4872,7 +5095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19285a48-ae73-4038-bc2e-03be12098e40")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR065"
 			(at 259.08 24.13 0)
 			(effects
 				(font
@@ -4922,7 +5145,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR048")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4937,7 +5160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e689e2f-2a34-4d6a-aff6-4d2e7756a4ef")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 183.896 119.634 0)
 			(effects
 				(font
@@ -4953,7 +5176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 187.96 120.65 90)
 			(effects
 				(font
@@ -4998,7 +5221,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5014,7 +5237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2deb847e-5fbc-4df1-94a6-330549aad7fb")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR036"
 			(at 22.86 77.47 0)
 			(effects
 				(font
@@ -5065,7 +5288,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR026")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f1f1d2f-d387-41fe-929e-a93c3bffbaf7")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 183.896 117.094 0)
 			(effects
 				(font
@@ -5096,7 +5319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 187.96 118.11 90)
 			(effects
 				(font
@@ -5141,7 +5364,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5157,7 +5380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33709425-4cbf-46bc-b2d1-11f438dd5a33")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR060"
 			(at 207.01 125.73 0)
 			(effects
 				(font
@@ -5208,7 +5431,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR034")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5223,7 +5446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34e071ae-0b1c-464e-af31-059ed484e28b")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 218.694 21.59 0)
 			(effects
 				(font
@@ -5239,7 +5462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 220.98 22.86 0)
 			(effects
 				(font
@@ -5275,7 +5498,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5291,7 +5514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "394886f5-c384-467c-9ead-692c5462412e")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR047"
 			(at 140.97 125.73 0)
 			(effects
 				(font
@@ -5342,7 +5565,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR060")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5358,7 +5581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3985cc3c-b67a-4686-b532-f31993d1ff05")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR035"
 			(at 25.4 96.52 0)
 			(effects
 				(font
@@ -5408,7 +5631,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR028")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c1ad3cf-8a05-4ec6-b1ac-953069c39f07")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 182.118 63.754 90)
 			(effects
 				(font
@@ -5439,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 185.42 64.77 0)
 			(effects
 				(font
@@ -5475,7 +5698,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5491,7 +5714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca801e0-6f79-4bb3-861c-c6fb1e334e36")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 156.21 15.24 0)
 			(effects
 				(font
@@ -5789,7 +6012,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5805,7 +6028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3caee37f-76ed-4923-910e-cc4f017ac46f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR042"
 			(at 124.46 138.43 0)
 			(effects
 				(font
@@ -5855,7 +6078,77 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR059")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43511642-47e4-4e79-998c-124c6a5f93a7")
+		(property "Reference" "J6"
+			(at 46.99 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.99 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7905eca5-a67d-46a7-8215-973770fb11fb")
+		)
+		(pin "1"
+			(uuid "b5bcfcb1-b7e0-48b4-be17-ccfefae8430c")
+		)
+		(instances
+			(project ""
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5870,7 +6163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51e1a568-a91e-4ba7-a477-ea7cfc8f7f35")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 183.896 122.174 0)
 			(effects
 				(font
@@ -5886,7 +6179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 187.96 123.19 90)
 			(effects
 				(font
@@ -5931,7 +6224,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5947,7 +6240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5305f246-b82b-41df-ac94-cdb13d5e480c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR059"
 			(at 207.01 123.19 0)
 			(effects
 				(font
@@ -5998,7 +6291,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR033")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6013,7 +6306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cf8545b-c2b7-4516-b487-f1190ec4efeb")
-		(property "Reference" "R2"
+		(property "Reference" "R9"
 			(at 182.118 61.214 90)
 			(effects
 				(font
@@ -6029,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 185.42 62.23 0)
 			(effects
 				(font
@@ -6065,7 +6358,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "R2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6099,7 +6392,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 25.4 87.63 0)
 			(effects
 				(font
@@ -6151,7 +6444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6145bca3-3765-4881-a760-344eeae03819")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR066"
 			(at 259.08 36.83 0)
 			(effects
 				(font
@@ -6201,7 +6494,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR049")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6217,7 +6510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "668492ab-73fd-4052-b73e-ee2b0701f3dc")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR053"
 			(at 171.45 105.41 0)
 			(effects
 				(font
@@ -6268,7 +6561,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR036")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6284,7 +6577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677807b7-4d8a-4a84-946d-96da5b723116")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR038"
 			(at 49.53 25.4 0)
 			(effects
 				(font
@@ -6334,7 +6627,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR021")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6350,7 +6643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c3c6d96-10d4-4c4f-94ad-1d2255418572")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR062"
 			(at 220.98 41.91 0)
 			(effects
 				(font
@@ -6400,7 +6693,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR041")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6416,7 +6709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fbe37f1-561d-4c52-8ffe-af808ff97e6c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR040"
 			(at 58.42 93.98 0)
 			(effects
 				(font
@@ -6466,7 +6759,73 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR027")
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 40.64 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ea5d7d-d9aa-4618-a710-f001a57a38dd")
+		(property "Reference" "#PWR0133"
+			(at 40.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 40.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be068e38-6a08-4422-a362-334f2e769f88")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -6482,7 +6841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e6e2802-72db-4649-9f43-0ae135cbc4e8")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR055"
 			(at 207.01 113.03 0)
 			(effects
 				(font
@@ -6533,7 +6892,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR029")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fee4ec3-c06b-45ba-a1d4-01712d68bcb1")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR063"
 			(at 246.38 29.21 0)
 			(effects
 				(font
@@ -6599,7 +6958,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR046")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6615,7 +6974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8061b5d0-b863-4a53-b35f-76b99a76d390")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR037"
 			(at 50.8 82.55 0)
 			(effects
 				(font
@@ -6666,7 +7025,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR025")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6682,7 +7041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89fc997d-3345-44bd-86ab-147d4f24f4b6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR056"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -6733,7 +7092,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR030")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6749,7 +7108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f33b69a-9170-4673-a870-f91549355c02")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 248.92 26.0285 0)
 			(effects
 				(font
@@ -6767,7 +7126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.38 27.94 0)
 			(effects
 				(font
@@ -6803,7 +7162,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6819,7 +7178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96581e23-57c3-4151-a052-dc657d66490c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR064"
 			(at 246.38 36.83 0)
 			(effects
 				(font
@@ -6869,7 +7228,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR047")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6885,7 +7244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5dbdbf-be68-4b8f-8bb3-61c022f850f3")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR050"
 			(at 171.45 57.15 0)
 			(effects
 				(font
@@ -6936,7 +7295,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR039")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6952,7 +7311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc7dc0e-61a6-4a77-918c-fe3c4350bf69")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -7003,7 +7362,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7018,7 +7377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ec53e67-7677-46af-8fb0-25dc49f1e6e7")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 183.896 114.554 0)
 			(effects
 				(font
@@ -7034,7 +7393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 187.96 115.57 90)
 			(effects
 				(font
@@ -7079,7 +7438,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7095,7 +7454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a04e6081-dff5-4040-b770-56d00152e1b2")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR034"
 			(at 21.59 31.75 0)
 			(effects
 				(font
@@ -7145,7 +7504,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR023")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7161,7 +7520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2b4ffa8-4248-4ba5-98cb-b08a2097d99a")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 140.97 95.25 0)
 			(effects
 				(font
@@ -7212,7 +7571,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7227,7 +7586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adb055f9-63d9-4251-a716-c54ad7eeb1a5")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 223.52 31.1085 0)
 			(effects
 				(font
@@ -7245,7 +7604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 220.98 33.02 0)
 			(effects
 				(font
@@ -7281,7 +7640,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7297,7 +7656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2182c48-c5e6-4ebc-9ca4-4f3312bbc29f")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 36.83 68.58 0)
 			(effects
 				(font
@@ -7364,7 +7723,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7380,7 +7739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3061a30-eecc-469b-95c1-37173e2e9e13")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR061"
 			(at 220.98 24.13 0)
 			(effects
 				(font
@@ -7430,7 +7789,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR038")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7445,7 +7804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7947b1e-ca0e-4660-99f6-7fa9226b1250")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 114.808 122.174 90)
 			(effects
 				(font
@@ -7461,7 +7820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 118.11 123.19 0)
 			(effects
 				(font
@@ -7497,7 +7856,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7513,7 +7872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e2d459-e0d3-4baf-94a8-280fcc70823e")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 267.97 15.24 90)
 			(effects
 				(font
@@ -7565,7 +7924,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -7580,7 +7939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b983a068-a4bc-4afe-90da-3f4c4e21795e")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 183.896 124.714 0)
 			(effects
 				(font
@@ -7596,7 +7955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 187.96 125.73 90)
 			(effects
 				(font
@@ -7641,7 +8000,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7658,7 +8017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd3d160f-3dd1-4c93-8750-f1efe8bf0ade")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 38.1 34.9249 0)
 			(effects
 				(font
@@ -7730,7 +8089,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7762,7 +8121,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 64.77 77.47 0)
 			(effects
 				(font
@@ -7814,7 +8173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c403fcae-8734-452d-bb60-6dc6d8ba83b0")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 140.97 82.55 0)
 			(effects
 				(font
@@ -7865,7 +8224,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7881,7 +8240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d732c0ae-a3ed-4c1d-813b-729e8d3a96c5")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR058"
 			(at 207.01 120.65 0)
 			(effects
 				(font
@@ -7932,7 +8291,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR032")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7966,7 +8325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 21.59 22.86 0)
 			(effects
 				(font
@@ -8018,7 +8377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfeef507-b34d-421a-bd99-9645e413dd9d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR051"
 			(at 171.45 69.85 0)
 			(effects
 				(font
@@ -8069,7 +8428,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR037")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8084,7 +8443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e94a1fb1-fbca-4393-a227-d565b484d0d1")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 183.896 112.014 0)
 			(effects
 				(font
@@ -8100,7 +8459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 187.96 113.03 90)
 			(effects
 				(font
@@ -8145,7 +8504,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8161,7 +8520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e99a7ccf-2633-4042-80b4-857accea354d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR039"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -8211,7 +8570,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR024")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8227,7 +8586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0ac44b-5b67-4b3d-a484-b4cc87f99de2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR049"
 			(at 171.45 39.37 0)
 			(effects
 				(font
@@ -8278,7 +8637,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR040")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8310,7 +8669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 113.03 107.95 0)
 			(effects
 				(font
@@ -8365,7 +8724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f41a97f2-4500-4620-9feb-b87230f0c65c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR048"
 			(at 181.61 26.67 0)
 			(effects
 				(font
@@ -8416,7 +8775,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR020")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8447,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-TH_6P-L8.0-W8.0-P2.50"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -8499,7 +8858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66414d7-b2c9-4ac9-a94e-d58801393fc9")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 261.62 26.0285 0)
 			(effects
 				(font
@@ -8517,7 +8876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 259.08 27.94 0)
 			(effects
 				(font
@@ -8553,7 +8912,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8569,7 +8928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff83a860-ac85-45da-b216-e521c6c10544")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR052"
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -8620,7 +8979,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/67983548-32e8-4c76-beda-27becdc558f3"
-					(reference "#PWR019")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
