@@ -19,3 +19,7 @@ Modules grouped:
 added all of the GPIO pins labels:
 
 ![gpio labels](assets/gpio_labels.png)
+
+finished routing the RP2350B module:
+
+![rp2350b module pcb](assets/rp2350b_module.png)
