@@ -5,3 +5,17 @@ After deciding between implementing my own USB PD stack with the FUSB302 and usi
 I also decided that I should split it into small modules, so if I need to change something, I can just change that module instead of the whole board.
 
 ![modules](assets/modules.png)
+
+# May 17, 2025
+
+made myself a footprint for the inductor :b
+
+![inductor footprint](assets/inductor_footprint.png)
+
+Modules grouped:
+
+![modules parts](assets/modules_part.png)
+
+added all of the GPIO pins labels:
+
+![gpio labels](assets/gpio_labels.png)

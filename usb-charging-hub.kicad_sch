@@ -11,6 +11,290 @@
 		(company "DaCloud")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -762,6 +1046,18 @@
 		)
 		(uuid "c1f9d053-c0b1-4fcd-b423-2c57898650ef")
 	)
+	(junction
+		(at 102.87 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12b67e52-8c1c-4206-a08a-3a4463148952")
+	)
+	(junction
+		(at 67.31 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c1616a-1ce2-4403-a56e-92c7484a360b")
+	)
 	(wire
 		(pts
 			(xy 24.13 46.99) (xy 24.13 50.8)
@@ -791,6 +1087,36 @@
 			(type default)
 		)
 		(uuid "34335616-522d-49dd-b919-5b2a4caf9733")
+	)
+	(wire
+		(pts
+			(xy 81.28 25.4) (xy 88.9 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a82c70d-dd3b-4bc5-a453-184fc758b5b6")
+	)
+	(wire
+		(pts
+			(xy 67.31 25.4) (xy 76.2 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbd10b4-d1cf-4930-b586-32d1fadd390d")
+	)
+	(wire
+		(pts
+			(xy 93.98 25.4) (xy 102.87 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a390a3-9cc1-4fbb-aa4f-b3d355f14e69")
 	)
 	(wire
 		(pts
@@ -883,6 +1209,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 91.44 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "358580b3-e46e-40bf-9f9e-e8b3e6dcb04a")
+		(property "Reference" "C2"
+			(at 90.8939 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50V,1000uF"
+			(at 90.8939 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P7.50mm"
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d2a6507-77b4-42fa-b1e4-19183c84077e")
+		)
+		(pin "1"
+			(uuid "43784d34-6804-40ca-9995-ed3bb56f73b1")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 24.13 43.18 0)
 		(unit 1)
@@ -953,6 +1347,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 102.87 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85dc7e69-527b-4894-888f-d03887823002")
+		(property "Reference" "J2"
+			(at 104.14 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 104.14 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via"
+			(at 102.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 102.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13611b76-3e58-4398-837f-2caa240e0eb8")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 24.13 62.23 0)
 		(unit 1)
@@ -962,7 +1423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c44e783-a5bb-4657-90c0-2d6f16a984c5")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 24.13 68.58 0)
 			(effects
 				(font
@@ -1012,7 +1473,74 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
-					(reference "#PWR02")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 67.31 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0698b87-3aff-4974-a621-400a9bca8a90")
+		(property "Reference" "J1"
+			(at 68.58 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 68.58 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via"
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b20db1c5-78c8-4da3-8a1d-d2a44edb65bc")
+		)
+		(instances
+			(project ""
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1098,6 +1626,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 78.74 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c450d1c4-2fcb-403c-85a6-ec54ea382665")
+		(property "Reference" "C1"
+			(at 78.1939 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50V,1000uF"
+			(at 78.1939 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P7.50mm"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51021ff3-fd70-418e-b455-150a7e0c2528")
+		)
+		(pin "1"
+			(uuid "762e3ee4-5147-4f75-b026-7a87bb4eacb8")
+		)
+		(instances
+			(project ""
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 24.13 25.4 0)
 		(unit 1)
@@ -1163,9 +1759,141 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d12306f8-9fb3-4bb5-aaa5-ae6081cda343")
+		(property "Reference" "#PWR03"
+			(at 102.87 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "733070d4-05f1-404e-bb14-5d73eee54b43")
+		)
+		(instances
+			(project ""
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 67.31 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d28c3d75-95bc-4542-b69c-eb098eba4cc2")
+		(property "Reference" "#PWR02"
+			(at 67.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 67.31 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de2bce84-b1f5-4e22-8feb-f9c8e863abe5")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 66.04 88.9)
-		(size 31.75 17.78)
+		(at 22.86 88.9)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1180,7 +1908,7 @@
 		)
 		(uuid "67983548-32e8-4c76-beda-27becdc558f3")
 		(property "Sheetname" "rp2350b"
-			(at 66.04 88.1884 0)
+			(at 22.86 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1917,7 @@
 			)
 		)
 		(property "Sheetfile" "rp2350b.kicad_sch"
-			(at 66.04 107.2646 0)
+			(at 22.86 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,8 +1934,8 @@
 		)
 	)
 	(sheet
-		(at 200.66 25.4)
-		(size 30.48 17.78)
+		(at 48.26 101.6)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1222,7 +1950,7 @@
 		)
 		(uuid "6cd18a35-eac9-4d54-ab2a-e3d56b6afb11")
 		(property "Sheetname" "USB A"
-			(at 200.66 24.6884 0)
+			(at 48.26 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1959,7 @@
 			)
 		)
 		(property "Sheetfile" "usba.kicad_sch"
-			(at 200.66 43.7646 0)
+			(at 48.26 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,8 +1976,8 @@
 		)
 	)
 	(sheet
-		(at 109.22 116.84)
-		(size 33.02 17.78)
+		(at 22.86 101.6)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1264,7 +1992,7 @@
 		)
 		(uuid "76114886-6b4c-40d8-9b64-a9a22ac4763d")
 		(property "Sheetname" "USB C"
-			(at 109.22 116.1284 0)
+			(at 22.86 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +2001,7 @@
 			)
 		)
 		(property "Sheetfile" "usbc.kicad_sch"
-			(at 109.22 135.2046 0)
+			(at 22.86 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,50 +2018,8 @@
 		)
 	)
 	(sheet
-		(at 109.22 88.9)
-		(size 33.02 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7")
-		(property "Sheetname" "Neopixel"
-			(at 109.22 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "neopixel.kicad_sch"
-			(at 109.22 107.2646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 66.04 116.84)
-		(size 31.75 17.78)
+		(at 73.66 88.9)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1348,7 +2034,7 @@
 		)
 		(uuid "8b94d9f0-b4ab-48ff-a9ac-e3216038869f")
 		(property "Sheetname" "5V Buck Regulator"
-			(at 66.04 116.1284 0)
+			(at 73.66 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +2043,7 @@
 			)
 		)
 		(property "Sheetfile" "5v.kicad_sch"
-			(at 66.04 135.2046 0)
+			(at 73.66 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,8 +2060,8 @@
 		)
 	)
 	(sheet
-		(at 22.86 116.84)
-		(size 30.48 17.78)
+		(at 48.26 88.9)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1390,7 +2076,7 @@
 		)
 		(uuid "cdc79840-31c5-4d0c-9732-2009c0e35a21")
 		(property "Sheetname" "3.3V Buck Regulator"
-			(at 22.86 116.1284 0)
+			(at 48.26 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +2085,7 @@
 			)
 		)
 		(property "Sheetfile" "3.3v.kicad_sch"
-			(at 22.86 135.2046 0)
+			(at 48.26 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1621,7 +1621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12db92e0-869a-40c8-87af-e58ab0c18c1e")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR045"
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -1671,7 +1671,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "#PWR0112")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1687,7 +1687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d4598dc-8fb8-4470-be2c-247d5c06584a")
-		(property "Reference" "TP10"
+		(property "Reference" "TP3"
 			(at 90.932 64.008 0)
 			(effects
 				(font
@@ -1738,7 +1738,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "TP10")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -1753,7 +1753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37d48b28-c411-4d9e-889a-9f78f02a3047")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 36.83 54.61 0)
 			(effects
 				(font
@@ -1826,7 +1826,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1841,7 +1841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b367997-574d-4e79-9ba6-da3f4ad0a8ca")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 92.71 55.372 0)
 			(effects
 				(font
@@ -1905,7 +1905,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1921,7 +1921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6020f229-2493-4ee7-a446-9b2555e7bbda")
-		(property "Reference" "TP8"
+		(property "Reference" "TP2"
 			(at 24.638 55.88 90)
 			(effects
 				(font
@@ -1970,7 +1970,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "TP8")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -1985,7 +1985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d4b1290-2017-4f76-81da-9877a02ca4ea")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 116.332 45.72 0)
 			(effects
 				(font
@@ -2076,7 +2076,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c49179e-4151-4fff-8dba-69b91b5ed1a6")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR044"
 			(at 100.33 71.12 0)
 			(effects
 				(font
@@ -2142,7 +2142,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "#PWR0115")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2158,7 +2158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d736dd-9b6f-4691-bb74-2b41cd9bb240")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR046"
 			(at 125.73 90.17 0)
 			(effects
 				(font
@@ -2208,7 +2208,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "#PWR0113")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6fb6d03-6ed2-4609-9d78-6cb5bea52162")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR047"
 			(at 55.88 92.71 0)
 			(effects
 				(font
@@ -2274,7 +2274,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "#PWR0116")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2290,7 +2290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8c70ad8-6da9-4883-994a-55d0f150aba0")
-		(property "Reference" "TP9"
+		(property "Reference" "TP1"
 			(at 101.6 42.418 0)
 			(effects
 				(font
@@ -2341,7 +2341,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "TP9")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2356,7 +2356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da5b1596-2649-4310-b56a-69d631d8e8c5")
-		(property "Reference" "U10"
+		(property "Reference" "U4"
 			(at 61.976 68.072 0)
 			(effects
 				(font
@@ -2422,7 +2422,7 @@
 		(instances
 			(project ""
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "U10")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2438,7 +2438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eef46aa9-f2f5-4ab5-951b-fbaeaf27a7bf")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR048"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "#PWR0114")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2503,7 +2503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc9b21b4-99ca-4e99-a909-479968947e21")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 92.71 77.216 0)
 			(effects
 				(font
@@ -2567,7 +2567,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
