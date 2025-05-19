@@ -827,7 +827,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:XXL1509-5.0"
+		(symbol "easyeda2kicad:XXL1509-5.0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -968,8 +968,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 11.43 0 180)
+					(at 11.43 -7.62 180)
 					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -986,8 +987,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 11.43 -2.54 180)
+					(at 11.43 -7.62 180)
 					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1004,8 +1006,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 11.43 -5.08 180)
+					(at 11.43 -7.62 180)
 					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1561,18 +1564,6 @@
 		(uuid "12b84606-6a51-4b41-a661-190134553691")
 	)
 	(junction
-		(at 76.2 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29c66e85-775b-4133-bcc7-e41072491e2b")
-	)
-	(junction
-		(at 76.2 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a700f81-edad-409e-89f6-ffca00457572")
-	)
-	(junction
 		(at 168.91 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1589,12 +1580,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53565e93-4dea-4f00-adbf-f797916a4581")
-	)
-	(junction
-		(at 76.2 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fad895e-adc7-4465-9b74-888a1aa4574d")
 	)
 	(junction
 		(at 69.85 52.07)
@@ -1631,16 +1616,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f331c926-9240-4732-984d-640fba2f0586")
-	)
-	(wire
-		(pts
-			(xy 76.2 44.45) (xy 76.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b6cbbf-41f0-4927-b77e-10c722ec2eb0")
 	)
 	(wire
 		(pts
@@ -1764,16 +1739,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 76.2 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d7baae-a102-421a-a44f-29a767c2a475")
-	)
-	(wire
-		(pts
 			(xy 99.06 44.45) (xy 104.14 44.45)
 		)
 		(stroke
@@ -1831,16 +1796,6 @@
 			(type default)
 		)
 		(uuid "d09004a2-3275-4403-ba97-f86451d57642")
-	)
-	(wire
-		(pts
-			(xy 76.2 49.53) (xy 76.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73339c4-eafb-490a-957a-11c277d175f5")
 	)
 	(wire
 		(pts
@@ -2958,7 +2913,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:XXL1509-5.0")
+		(lib_id "easyeda2kicad:XXL1509-5.0")
 		(at 87.63 44.45 0)
 		(mirror y)
 		(unit 1)

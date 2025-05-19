@@ -2,181 +2,29 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ec6f0008-fac2-4f93-870c-4e0bd2b99c4b")
+	(uuid "837f09a7-604b-42d7-947e-1e86e38de673")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
+			(property "Value" "TestPoint"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -184,16 +32,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -202,6 +42,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -210,7 +59,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -219,15 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -236,89 +77,24 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -333,46 +109,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:SK6812MINI-E_C5149201"
+		(symbol "easyeda2kicad:SK6812MINI-E_C5149201"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -742,115 +482,649 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 156.21 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76b7dd65-5961-408d-aad3-506e69e53897")
-	)
-	(junction
-		(at 156.21 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "792348ab-dfd2-4c76-989c-f8a10c49b700")
-	)
-	(junction
-		(at 156.21 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87cc1113-30cb-4755-9114-42ee989057c9")
-	)
-	(junction
-		(at 156.21 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e429c646-6201-4651-b855-32e6b9337bcc")
-	)
 	(wire
 		(pts
-			(xy 156.21 43.18) (xy 156.21 45.72)
+			(xy 175.26 83.82) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d7b95ef-f3c6-4ddc-9b14-5f2fdc21da45")
+		(uuid "13c1ab78-d755-4b28-a5c7-9ecbbf63a9d1")
 	)
 	(wire
 		(pts
-			(xy 156.21 55.88) (xy 156.21 58.42)
+			(xy 64.77 62.23) (xy 67.31 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f8e30c6-5605-4d25-978d-5eacd7f5ecd8")
+		(uuid "13ccf302-e408-498c-bccf-ade7def95db1")
 	)
 	(wire
 		(pts
-			(xy 196.85 50.8) (xy 194.31 50.8)
+			(xy 135.89 62.23) (xy 146.05 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5be2c50e-0757-4141-8422-ecd02c615b48")
+		(uuid "148fe46e-125c-480a-a220-58462d7d39a2")
 	)
 	(wire
 		(pts
-			(xy 156.21 40.64) (xy 156.21 43.18)
+			(xy 64.77 83.82) (xy 67.31 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cf5ebdc-931b-4d87-a616-56975c81f425")
+		(uuid "16997a7c-45f9-43d4-b007-794c4cb8eed7")
 	)
 	(wire
 		(pts
-			(xy 156.21 58.42) (xy 156.21 60.96)
+			(xy 247.65 86.36) (xy 245.11 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a89435aa-7c16-4ce9-9100-d386e29dfdbc")
+		(uuid "1849e4d4-7823-4579-a057-f7bf9b626d08")
 	)
 	(wire
 		(pts
-			(xy 171.45 48.26) (xy 173.99 48.26)
+			(xy 214.63 43.18) (xy 214.63 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e83de53b-a125-44dc-beb7-91761380c92e")
+		(uuid "19f3c434-98cf-4199-a3fe-4563e0819c7e")
 	)
-	(global_label "DIN"
-		(shape output)
-		(at 180.34 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 175.26 40.64) (xy 185.42 40.64)
 		)
-		(uuid "00ca0348-97cf-4b15-8eae-3c27daa61696")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2322 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "1c227787-f582-436d-9ebe-93a222f43afd")
 	)
-	(global_label "DOUT"
+	(wire
+		(pts
+			(xy 166.37 107.95) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec90d83-9eb0-4c4a-9777-50d0e6c52e4d")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28593761-a0c8-40e3-9072-dda327345465")
+	)
+	(wire
+		(pts
+			(xy 247.65 50.8) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a5928b-b875-4dd5-9fc4-afc7d61a2e42")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c670da-3562-4295-9499-09037ab47e6e")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2f3641-abf8-4fce-be64-102683ec4692")
+	)
+	(wire
+		(pts
+			(xy 214.63 86.36) (xy 214.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eab183f-c004-41ef-817b-84ee08736afa")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314414be-674e-44ea-ad86-2195bec028aa")
+	)
+	(wire
+		(pts
+			(xy 247.65 86.36) (xy 247.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31775831-179d-4b83-8949-47c1aaf27eb0")
+	)
+	(wire
+		(pts
+			(xy 87.63 43.18) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37588f00-55cf-49f1-9a18-f6cc2bd78b34")
+	)
+	(wire
+		(pts
+			(xy 96.52 107.95) (xy 96.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1297a4-8a2a-4798-8290-1e56744707a0")
+	)
+	(wire
+		(pts
+			(xy 175.26 107.95) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406a484b-2051-456b-9f04-83fcd942147a")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e84a0c-10bd-4956-b676-968a3688d6e2")
+	)
+	(wire
+		(pts
+			(xy 127 64.77) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481a02cf-713b-4d63-8ba5-00ae1ddc4f16")
+	)
+	(wire
+		(pts
+			(xy 87.63 107.95) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481dc3b3-90d1-48cf-b8fc-9842d819d47b")
+	)
+	(wire
+		(pts
+			(xy 205.74 107.95) (xy 214.63 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4d3195-ad24-4831-8d5d-34b05381585f")
+	)
+	(wire
+		(pts
+			(xy 64.77 93.98) (xy 64.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df0bffe-7f16-4925-92b7-f900afa45f24")
+	)
+	(wire
+		(pts
+			(xy 135.89 43.18) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e120cae-2b3f-4b6f-8a5c-17355a7b4f6f")
+	)
+	(wire
+		(pts
+			(xy 135.89 83.82) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e473100-a9b7-408a-b08f-364d8ed8eb49")
+	)
+	(wire
+		(pts
+			(xy 64.77 50.8) (xy 64.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb38831-14bb-48da-aa60-20d07ee81c2b")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d17dde-2253-444b-b5f8-91b5abcc4ce0")
+	)
+	(wire
+		(pts
+			(xy 96.52 62.23) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58199a03-89c7-4fa5-bb6b-37e1efa4b702")
+	)
+	(wire
+		(pts
+			(xy 87.63 64.77) (xy 96.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592a9755-f105-4f4c-b8d0-8c2f1d6a9847")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 135.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0480dc-6246-4231-9951-88c36b13b95e")
+	)
+	(wire
+		(pts
+			(xy 175.26 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1328e4-89ad-46c0-aa51-03b6025b2347")
+	)
+	(wire
+		(pts
+			(xy 64.77 72.39) (xy 64.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627b6a4f-674a-4daa-a5f1-01e8ddd53fd7")
+	)
+	(wire
+		(pts
+			(xy 247.65 64.77) (xy 245.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644416a3-68b0-4e96-98a4-5f0b213ac0c3")
+	)
+	(wire
+		(pts
+			(xy 214.63 105.41) (xy 224.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752957dc-f246-43c8-a6b3-8eb415afa509")
+	)
+	(wire
+		(pts
+			(xy 166.37 43.18) (xy 175.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753ecbd4-62af-465e-afd7-3a41934f0c42")
+	)
+	(wire
+		(pts
+			(xy 247.65 72.39) (xy 64.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78da4402-9cf6-40cb-9ae6-5db8d3d7b4a7")
+	)
+	(wire
+		(pts
+			(xy 96.52 40.64) (xy 106.68 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3b1384-430f-43e8-b97c-e8ad632f5827")
+	)
+	(wire
+		(pts
+			(xy 96.52 64.77) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a84411e-a64a-44f6-a039-8763d7df0b10")
+	)
+	(wire
+		(pts
+			(xy 214.63 40.64) (xy 224.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de9441b-9582-4786-8e74-a2245857dbc4")
+	)
+	(wire
+		(pts
+			(xy 127 43.18) (xy 135.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e469164-c57d-4751-917b-b80866e4bb41")
+	)
+	(wire
+		(pts
+			(xy 135.89 105.41) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1ceed6-b151-42b4-9f82-fdf47ecb27c6")
+	)
+	(wire
+		(pts
+			(xy 247.65 93.98) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956ff390-2d32-4e1f-afa8-a5644423e5c4")
+	)
+	(wire
+		(pts
+			(xy 205.74 64.77) (xy 214.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f2ca7f-474a-4f16-8f6c-2861a6e911a6")
+	)
+	(wire
+		(pts
+			(xy 245.11 107.95) (xy 260.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8bf987-bef2-494f-a702-673b98face00")
+	)
+	(wire
+		(pts
+			(xy 96.52 43.18) (xy 96.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4687e9-4596-4422-b186-8b465cd33cce")
+	)
+	(wire
+		(pts
+			(xy 175.26 43.18) (xy 175.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5cfde7-d56e-45ee-95a4-31dd20e12995")
+	)
+	(wire
+		(pts
+			(xy 135.89 40.64) (xy 146.05 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6f4b49-d35a-480a-8d5e-9067e0e410e1")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51ec7d7-e2ac-4dee-b723-9bb463201fba")
+	)
+	(wire
+		(pts
+			(xy 247.65 43.18) (xy 247.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66995f6-bb25-4a7d-8e8b-80ca26a2f2c9")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad748f1d-143c-4b1a-af66-a24a13127eba")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 135.89 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a79fe9-57ed-4c3a-aa88-e827d5a31d02")
+	)
+	(wire
+		(pts
+			(xy 247.65 64.77) (xy 247.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b356a6ce-66e5-4edd-9627-8384101ef1d0")
+	)
+	(wire
+		(pts
+			(xy 214.63 64.77) (xy 214.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe91add-f0e2-4e95-b08c-37b1c5624deb")
+	)
+	(wire
+		(pts
+			(xy 247.65 43.18) (xy 245.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e0ac8b-b5a9-48c0-bb69-d52057f3914c")
+	)
+	(wire
+		(pts
+			(xy 214.63 107.95) (xy 214.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca85ce77-8d96-4118-86d2-ef26a228adc7")
+	)
+	(wire
+		(pts
+			(xy 205.74 43.18) (xy 214.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d119c926-6397-48bb-9eaa-a077b4c73dee")
+	)
+	(wire
+		(pts
+			(xy 166.37 64.77) (xy 175.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a8738c-007d-44b9-8aca-37c840c836bd")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5df0ec1-c8b3-4203-a625-fc6a74c916f7")
+	)
+	(wire
+		(pts
+			(xy 214.63 62.23) (xy 224.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f4fcc2-c31b-43fb-8da9-3212d8331a8f")
+	)
+	(wire
+		(pts
+			(xy 175.26 64.77) (xy 175.26 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e559b581-88f0-4fa9-a326-1ccc563649ae")
+	)
+	(wire
+		(pts
+			(xy 96.52 105.41) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9476977-d75e-4f01-8af4-382575a20dec")
+	)
+	(wire
+		(pts
+			(xy 214.63 83.82) (xy 224.79 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaff4c18-aab1-4999-99e1-1bf0b34c6f4b")
+	)
+	(wire
+		(pts
+			(xy 64.77 105.41) (xy 67.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62c9c56-1ada-43a7-ac0e-e7897cf026b5")
+	)
+	(wire
+		(pts
+			(xy 166.37 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8345d0-7b89-4047-947a-719c7a1783dc")
+	)
+	(global_label "Pixels"
 		(shape input)
-		(at 180.34 64.77 180)
+		(at 67.31 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -858,142 +1132,31 @@
 			)
 			(justify right)
 		)
-		(uuid "2b555313-56e4-45aa-aa4e-8e9c7632d84a")
+		(uuid "4b654110-deac-4743-836b-b8439145e4f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.2147 64.77 0)
+			(at 59.712 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOUT"
-		(shape input)
-		(at 173.99 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb711d03-5bfd-4b2b-92ab-d0eb5c5f0972")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.8647 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIN"
-		(shape output)
-		(at 194.31 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4cdd4bf-5648-49b9-8b3e-b347392b9f7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.9789 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 185.42 62.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "232a6319-8e5e-41fa-852b-37eacd9df317")
-		(property "Reference" "J15"
-			(at 188.976 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 194.31 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 185.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "06c7ce98-bf5b-4aea-bd43-0d92aaece5bb")
-		)
-		(pin "1"
-			(uuid "4b15585d-3bb8-4360-b396-7fe6659d05f0")
-		)
-		(instances
-			(project ""
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 171.45 48.26 0)
+		(lib_id "power:GND")
+		(at 106.68 43.18 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "23f2371d-6ad7-4f14-a14b-acce78565b84")
-		(property "Reference" "#PWR0105"
-			(at 171.45 52.07 0)
+		(uuid "029c60cf-8484-4178-ada1-f6afd94d4a53")
+		(property "Reference" "#PWR021"
+			(at 100.33 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,16 +1164,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 171.45 43.18 0)
+		(property "Value" "GND"
+			(at 102.87 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 48.26 0)
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 48.26 0)
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,8 +1191,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 48.26 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,168 +1201,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "2571e78f-3f28-4435-aca2-6c77cd6be9e8")
+			(uuid "47243705-f3f8-40e1-a7f1-69a109cd4eba")
 		)
 		(instances
 			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
-					(reference "#PWR0105")
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 151.13 43.18 0)
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 116.84 85.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4074d269-b39c-4564-bf3a-29b8e02a0549")
-		(property "Reference" "J3"
-			(at 148.971 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 143.002 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 151.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "95dbafb5-443b-45f0-b8b4-6ce6a5a5e463")
-		)
-		(pin "2"
-			(uuid "59795ece-4f64-492b-902d-3aad093ed7e0")
-		)
-		(pin "1"
-			(uuid "db3ce2b2-632e-420f-9191-69f82d72b8aa")
-		)
-		(instances
-			(project ""
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 151.13 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54d0b138-c6ee-429a-aa5d-290f0a6336b9")
-		(property "Reference" "J14"
-			(at 148.971 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 143.002 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 151.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "be4a75e3-7a5c-4e89-967a-c941510de602")
-		)
-		(pin "2"
-			(uuid "9bf35a9c-0d64-4545-a05c-bdd356ce84b5")
-		)
-		(pin "1"
-			(uuid "301e3cc3-b517-4f09-a890-d4806e630e70")
-		)
-		(instances
-			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:SK6812MINI-E_C5149201")
-		(at 184.15 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56c49b8f-ce59-48f9-aa0f-f8440915d495")
-		(property "Reference" "LED20"
-			(at 184.15 34.798 0)
+		(fields_autoplaced yes)
+		(uuid "036f6f0a-9700-450c-b111-e3b5506391da")
+		(property "Reference" "LED12"
+			(at 116.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1232,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E_C5149201"
-			(at 184.15 38.608 0)
+			(at 116.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1240,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
-			(at 184.15 58.42 0)
+			(at 116.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 49.53 0)
+			(at 116.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 49.53 0)
+			(at 116.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,96 +1267,30 @@
 			)
 		)
 		(property "LCSC Part" "C5149201"
-			(at 184.15 60.96 0)
+			(at 116.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "d3753459-045f-4a7a-af03-19d39aeb3d9f")
-		)
-		(pin "1"
-			(uuid "95e78f4f-6d6c-47db-ac3f-6fe95ffe5bb3")
-		)
-		(pin "4"
-			(uuid "ae5dbd24-a3fb-4186-a05b-0a7a94b8f087")
 		)
 		(pin "3"
-			(uuid "5ef1e9b4-7f0a-487f-a35a-6b142beac206")
+			(uuid "df3e5677-0481-431f-bbe9-25e95b4d3500")
 		)
-		(instances
-			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
-					(reference "LED20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dfd6301-014e-435d-8caa-fbeb0032c079")
-		(property "Reference" "#PWR0106"
-			(at 196.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "ff624529-f31e-4a95-bdcb-26f2db887e6d")
 		)
 		(pin "1"
-			(uuid "70546331-037f-4de6-876f-eb079719ede8")
+			(uuid "342a80b8-9a5c-4e00-a70c-048bf54e9840")
+		)
+		(pin "4"
+			(uuid "84c2f8fb-0986-4d7f-b0ef-b2bd9f9da275")
 		)
 		(instances
 			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
-					(reference "#PWR0106")
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -1338,16 +1298,17 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 156.21 40.64 0)
+		(at 245.11 62.23 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a40161e8-69f8-44bc-b5d5-60f40cda3f6a")
-		(property "Reference" "#PWR0107"
-			(at 156.21 44.45 0)
+		(uuid "037cfe57-b399-4ba2-b7a1-df6cbce15a15")
+		(property "Reference" "#PWR0245"
+			(at 241.3 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,15 +1317,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 156.21 35.56 0)
+			(at 248.92 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 40.64 0)
+			(at 245.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 40.64 0)
+			(at 245.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 40.64 0)
+			(at 245.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,46 +1353,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8f761bd-d785-4583-8802-4fc9b051212b")
+			(uuid "862969c9-20d3-4649-bcac-86e4a015938c")
 		)
 		(instances
 			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
-					(reference "#PWR0107")
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 156.21 60.96 0)
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 195.58 41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2d08b5a-d1aa-458f-889e-1312681c4701")
-		(property "Reference" "#PWR067"
-			(at 156.21 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 66.04 0)
+		(uuid "0602e6e6-5177-45d7-8fc8-4618b98af1d0")
+		(property "Reference" "LED4"
+			(at 195.58 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 60.96 0)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 195.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 195.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 60.96 0)
+			(at 195.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,8 +1409,94 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 60.96 0)
+		(property "Description" ""
+			(at 195.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "824e0ba1-c5be-42e6-8e33-80a4aa7e0113")
+		)
+		(pin "2"
+			(uuid "2eae25a1-9b17-4837-882e-1f32d3026408")
+		)
+		(pin "1"
+			(uuid "2f1e9fc3-7981-4418-b7e7-dbdcd0041359")
+		)
+		(pin "4"
+			(uuid "657bc62d-3494-4548-9a13-108b09380586")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "101c1d88-6842-4176-a377-7e2ea5e46f39")
+		(property "Reference" "#PWR0271"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,12 +1505,4107 @@
 			)
 		)
 		(pin "1"
-			(uuid "141f9f49-ed2c-4fe1-838d-180a36053945")
+			(uuid "ae27dc76-7fa4-44cc-9c06-1d708f63a155")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0271")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1037a4f9-38e3-4563-83c6-3822de72af58")
+		(property "Reference" "#PWR0274"
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8643b4ba-3761-4ac8-9890-b656962f7479")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dfc558e-2bad-41fd-a28b-f40a90fa9218")
+		(property "Reference" "#PWR022"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db038363-644b-406d-96bf-df2f06296b94")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23fed06f-39d4-4e05-97df-b73a9418ff01")
+		(property "Reference" "#PWR0254"
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f2d3ee1-bdeb-4a0e-9069-44c26ca1ff09")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa64451-80c3-4ca7-a191-1864aa86fddb")
+		(property "Reference" "#PWR014"
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afceeeea-9497-4aca-9595-6932e40a5a5c")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33b77381-6d11-42e8-a642-ec08d8b1e900")
+		(property "Reference" "#PWR0267"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69c3cd25-09e4-4094-9aae-0ae83226ffe2")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0267")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "374a1200-c84d-4814-a560-d0b4d908ce93")
+		(property "Reference" "#PWR0249"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acdcb6f3-1161-465c-a24e-30556a6723d4")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388c7357-bdaa-49fc-b41f-efba3d487c7f")
+		(property "Reference" "#PWR0253"
+			(at 83.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d12761c5-58ae-4036-b071-cc3864d8fc14")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 234.95 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39487e7e-c9b4-4777-8cb6-4a58c5595680")
+		(property "Reference" "LED15"
+			(at 234.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 234.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 234.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5e4fe750-e513-4190-aff8-416ac1013265")
+		)
+		(pin "2"
+			(uuid "d5031952-ad49-4c75-8267-d858c0efb1d3")
+		)
+		(pin "1"
+			(uuid "c45c05a1-a3cd-4d93-8824-bf65f5a86a82")
+		)
+		(pin "4"
+			(uuid "be882f32-12b1-4ec2-82aa-f0da672fc685")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d5a4e20-4802-4b12-b2b6-f95af49e7016")
+		(property "Reference" "#PWR0266"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "973f7840-08cf-4ad5-85ab-c453791d4b21")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 156.21 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "456b59b0-c213-4a69-8fa0-6635478c7989")
+		(property "Reference" "LED8"
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f1793369-75af-4ea9-8b13-c01e50b60acd")
+		)
+		(pin "2"
+			(uuid "ebd1108d-444d-41c0-97ef-f997c1a36cf0")
+		)
+		(pin "1"
+			(uuid "d46bad04-6947-4f58-9946-2b23f7fc1cdb")
+		)
+		(pin "4"
+			(uuid "488f00eb-56a2-49bb-b7c9-600839ae0e81")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 156.21 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45f2902c-d4f6-4122-990e-22d2b54ddb27")
+		(property "Reference" "LED18"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 156.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c469fc67-421d-4887-a853-94b7fb27ce43")
+		)
+		(pin "2"
+			(uuid "fde578f9-8dea-42c0-b0a5-03ef7b9df54b")
+		)
+		(pin "1"
+			(uuid "4504b714-e721-4c27-8f08-da5d580e7738")
+		)
+		(pin "4"
+			(uuid "25f6934f-194a-4900-8ef5-3cf701293349")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "467da1f5-3320-4fc0-b3fb-1e97274b6016")
+		(property "Reference" "#PWR0240"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "276629ee-8188-4b33-8064-1c23097beaa3")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ceaa7c9-4994-4341-8121-a980f0b3087e")
+		(property "Reference" "#PWR0273"
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c23b288e-8ed7-4d8d-bdef-c6a04f38f6cf")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0273")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d511be6-8c71-4546-afd7-7afdf13d6427")
+		(property "Reference" "#PWR0247"
+			(at 201.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbd7450c-1e8c-42af-909b-633a10518af0")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "534be98b-92b5-4c02-94e0-88eba242070b")
+		(property "Reference" "#PWR0244"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b071e449-9a93-4713-a4f5-8967aa29fd83")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59a4e181-bca1-4dfc-855d-991e990aee9f")
+		(property "Reference" "TP1"
+			(at 262.89 102.7429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 262.89 106.5529 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30dc10d0-a0d7-427e-aca8-0afeee48c933")
 		)
 		(instances
 			(project ""
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/7fcba1a5-c6dd-4722-bd30-8c494eb4bcd7"
-					(reference "#PWR067")
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 156.21 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c07ab80-0eee-43db-9f65-8ea8baf094bb")
+		(property "Reference" "LED3"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "299dfc1e-2078-4541-88ac-bc802704340a")
+		)
+		(pin "2"
+			(uuid "1b6e4366-2881-48b8-bef9-3f72632307e0")
+		)
+		(pin "1"
+			(uuid "009134a3-45a9-450f-942d-785f1265a179")
+		)
+		(pin "4"
+			(uuid "556ced6c-12f9-418b-95d6-85367fc03f9b")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 156.21 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68cf9d67-cae1-464f-8225-36508f5bf2db")
+		(property "Reference" "LED13"
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b941714e-1d24-4d31-9564-72c15f62a339")
+		)
+		(pin "2"
+			(uuid "9035d815-19ae-4fea-86c9-d217efc4f63e")
+		)
+		(pin "1"
+			(uuid "89d7cb30-1d84-40e4-b291-64b588500308")
+		)
+		(pin "4"
+			(uuid "d4195f8a-0833-45c9-95be-ccf2fb3e6b1d")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b2438a2-37f6-415d-b1a2-326382eeee61")
+		(property "Reference" "#PWR0251"
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8652e21e-2c48-4dd4-acf3-0caf00070861")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 195.58 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cd373bc-8340-4f4a-a2b3-0918128f7267")
+		(property "Reference" "LED14"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 195.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 195.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "50419f52-4472-4095-b74a-40df9ada644d")
+		)
+		(pin "2"
+			(uuid "691d6e61-1e4c-44b2-91fa-40544adef727")
+		)
+		(pin "1"
+			(uuid "fe2b6db3-0f1a-4601-b815-9897c150bb84")
+		)
+		(pin "4"
+			(uuid "7363a7e9-0897-4c1e-9119-7211f36fd1e7")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e79fd6a-7c29-4676-949c-f9459c56baac")
+		(property "Reference" "#PWR0258"
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddc7d5dc-ca4d-4ff9-87fb-f8a8ec83fb68")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0258")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f6ca02a-14e5-4d4d-97f4-db5dfeacad62")
+		(property "Reference" "#PWR0262"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef11811-817c-4e74-9ef0-3355700181d0")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0262")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 77.47 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "776a4af0-6ddc-4ba1-aca9-33517a104d99")
+		(property "Reference" "LED1"
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 77.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 77.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "156b5a94-83e7-403c-9fe8-3cb339955208")
+		)
+		(pin "2"
+			(uuid "80c46223-c6b5-4a05-8329-a40539c75ed8")
+		)
+		(pin "1"
+			(uuid "c95a2807-a36d-469f-9521-084635e78e03")
+		)
+		(pin "4"
+			(uuid "fc49a74f-0ce7-4b48-bdfb-ebc4df1596f2")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 77.47 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786158ae-0f3d-4153-8402-f8dfa47c672d")
+		(property "Reference" "LED11"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4bba452f-f4f9-48a6-a80b-662ef4e56598")
+		)
+		(pin "2"
+			(uuid "4afbd6c5-c307-4340-b9fa-11885f5a506e")
+		)
+		(pin "1"
+			(uuid "7292f94c-2c94-49c9-a39f-b5507f7e05d4")
+		)
+		(pin "4"
+			(uuid "0c044032-7571-4b71-970a-96302aa7c515")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b718358-aada-433c-a3dd-2149cc120f40")
+		(property "Reference" "#PWR0264"
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a57d5895-d966-4bdf-93a7-81f1f0cbf65f")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0264")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d31541c-6b31-4476-bd05-cca42d895600")
+		(property "Reference" "#PWR0246"
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1a7a500-43c5-45dc-9a25-aebf34680c35")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82479591-d4c1-4659-9294-c89a5ef1a872")
+		(property "Reference" "#PWR0257"
+			(at 201.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d981f7b8-c08b-45a7-957e-5616b4a610d9")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0257")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84d264a3-67db-405a-984b-8d24607df707")
+		(property "Reference" "#PWR0269"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec16a01f-e0c7-47cf-bee6-178381b81741")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0269")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 77.47 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "853105a1-c808-4850-b362-0c649bc7c0f7")
+		(property "Reference" "LED6"
+			(at 77.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 77.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f0b255b5-6517-463a-bd4e-f07cea429b7b")
+		)
+		(pin "2"
+			(uuid "70b0fca3-db64-475c-b647-0c5151818972")
+		)
+		(pin "1"
+			(uuid "0516a41f-9f3f-4968-afe9-d5328578ba35")
+		)
+		(pin "4"
+			(uuid "1240085e-a042-48cf-abdd-8f86f0f5c568")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 116.84 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85f0068a-e0b6-4572-bb66-14e62e507818")
+		(property "Reference" "LED7"
+			(at 116.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f6f8b3d6-6f20-4fb6-8554-3f8820fc4a12")
+		)
+		(pin "2"
+			(uuid "4901d316-2577-4957-803f-fef48f318042")
+		)
+		(pin "1"
+			(uuid "d8596d13-6eeb-4df6-b358-3617c8819084")
+		)
+		(pin "4"
+			(uuid "d6b58e35-6dae-4bd1-90fd-1a5b7c184107")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 234.95 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db4a0cd-a16b-44f2-9711-8819301816d6")
+		(property "Reference" "LED10"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 234.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 234.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f8956f59-3d5d-41e7-b3b7-8add4b6b0b9a")
+		)
+		(pin "2"
+			(uuid "a373a22b-8edb-4279-976b-693da8c04642")
+		)
+		(pin "1"
+			(uuid "f68dca0f-efe3-45ca-bab5-79abe2a144f9")
+		)
+		(pin "4"
+			(uuid "b5e35432-6e85-4f31-85df-cb49dbbf20e6")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f2a22af-5768-4150-b8a2-c7ccce9fc766")
+		(property "Reference" "#PWR0241"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31ae80a4-e31b-4602-9659-81bb7fc75159")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "914a87a4-f168-4ed7-9c92-d1ffd3868f18")
+		(property "Reference" "#PWR0270"
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfc69503-0dd4-4681-ad55-1b1c40e47184")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0270")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 116.84 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d711af-e836-4dc4-96b8-44056e3809c3")
+		(property "Reference" "LED2"
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 116.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c992e645-e4c9-4ac9-a0ec-f14054cbef87")
+		)
+		(pin "2"
+			(uuid "ad078dd3-a12d-44e5-88d3-279e4f5306fd")
+		)
+		(pin "1"
+			(uuid "057fd226-fbf2-481e-8ec2-bd9da1afc931")
+		)
+		(pin "4"
+			(uuid "51b6ee69-664c-4264-a132-b79e0c224227")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9468c9b5-c927-4eb5-9c42-561ef0958fd3")
+		(property "Reference" "#PWR0272"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b72ef6-f6fd-40e1-9a3e-79b0129dcf6f")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 245.11 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b34d06-dcad-4f5a-9358-6752765516e1")
+		(property "Reference" "#PWR0255"
+			(at 241.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 248.92 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85604e15-12d7-4c07-bf6f-85c3899b9342")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0255")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a68079ed-8f9d-4521-a17a-1d0f4b271026")
+		(property "Reference" "#PWR0268"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a18959c0-2d5c-4061-92f5-2c30869ba90e")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e7006d-5293-4ed2-8c9b-7735da0f31bf")
+		(property "Reference" "#PWR0248"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2cbd906-c3be-428e-9a91-343f14696531")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b57b9b37-723a-49fe-a74a-0f104c06940c")
+		(property "Reference" "#PWR0259"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "137b09e6-cb1d-4da3-bd39-8c71814dcea5")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b67267c4-8b88-41b9-bd32-139db0c8df9b")
+		(property "Reference" "#PWR0238"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "622f1cfe-dec8-42ed-8a86-cb8ad18aec72")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 234.95 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd4cf0fc-a9fa-4f70-b7f6-6c7f250b032e")
+		(property "Reference" "LED20"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 234.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 234.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 234.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "374deb45-b2b3-488a-b0bb-82c12c9ea44a")
+		)
+		(pin "2"
+			(uuid "87a525da-a543-4db2-a577-1dd04257f0b4")
+		)
+		(pin "1"
+			(uuid "37e12782-e425-4032-ab74-a469dc20c92e")
+		)
+		(pin "4"
+			(uuid "ec676d74-9ceb-46a6-9699-f4e8a8073413")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd65ca13-a39a-4d46-b36c-824c5cd7357c")
+		(property "Reference" "#PWR0263"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07875513-eb40-4d2a-a8ca-b8d70f2e9d05")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf1b348e-f5ca-45b1-bfe1-feb9db92b824")
+		(property "Reference" "#PWR0261"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "799de00f-3e8e-4676-a4a0-bdeba307a348")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 245.11 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c13a4ecd-9d1d-4ce4-a10b-a76c17506ee2")
+		(property "Reference" "#PWR0265"
+			(at 241.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 248.92 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1908c768-2093-499e-a561-2566a09a8f8c")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1473031-76f4-43ac-af4f-7035448bd05c")
+		(property "Reference" "#PWR0260"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "786e1321-a71d-4bb1-9a4d-296c44d2c44c")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0260")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 195.58 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a5c74c-77bc-4b30-ac66-24c6c46afa3b")
+		(property "Reference" "LED9"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 195.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cba41449-6018-426b-a8d2-76231c705fe3")
+		)
+		(pin "2"
+			(uuid "a784bac4-714e-49a6-bcbb-ad2a022773ee")
+		)
+		(pin "1"
+			(uuid "89610ad2-dd1f-4ffc-955d-fade30fcfd5a")
+		)
+		(pin "4"
+			(uuid "7c0baa36-5309-4311-b22d-4964b2104508")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 245.11 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d673aecc-19d8-438e-a336-102837cd86bd")
+		(property "Reference" "#PWR0243"
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 248.92 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b79cbca2-6c0c-46a9-9f95-bd656c439358")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0910777-25b2-4b19-8a49-628bdf692897")
+		(property "Reference" "#PWR0239"
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0229c8f3-1e13-4fd1-b4d4-d48cfb20fbda")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 234.95 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e10374d9-4f77-4ee8-8448-addd86cdcffa")
+		(property "Reference" "LED5"
+			(at 234.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 234.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "991da585-e46f-4efb-bf5d-2a4ffc740aa9")
+		)
+		(pin "2"
+			(uuid "6943ccbd-67bf-4865-ad5a-9ef724cd586c")
+		)
+		(pin "1"
+			(uuid "141ac34a-d662-4477-93e4-0cdf461d93f0")
+		)
+		(pin "4"
+			(uuid "e45f8e20-1e93-48bd-8ade-cd92ac66267a")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 195.58 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5861e9d-a303-4447-8896-0de5725ba458")
+		(property "Reference" "LED19"
+			(at 195.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 195.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ac92197-a237-4bf1-ac90-f75bde5f9dfc")
+		)
+		(pin "2"
+			(uuid "41120f2a-3848-4b52-b8a3-ed849f44aa20")
+		)
+		(pin "1"
+			(uuid "d8e544f2-993c-424a-8a2a-3e3fd054eb00")
+		)
+		(pin "4"
+			(uuid "607d42f2-99a9-4152-ba3e-6c4090c352e2")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 77.47 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e608a347-6e1b-4916-9087-38ac68d2327d")
+		(property "Reference" "LED16"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "72455d9b-3629-441f-81f2-28360a5cc255")
+		)
+		(pin "2"
+			(uuid "7baf9dd3-2e50-49d2-b63c-cb6701d16e5a")
+		)
+		(pin "1"
+			(uuid "52bdb441-07f2-4907-be4a-fd838c577d4b")
+		)
+		(pin "4"
+			(uuid "3737ba95-c157-48ab-b947-d3dcfeaa5d35")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d0e130-ddaf-4c8e-a421-06e90df6f61e")
+		(property "Reference" "#PWR0242"
+			(at 179.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "120d4198-e3b2-4f47-b125-698a5f635c97")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7365e8-b2c2-48b6-b655-f144531ac8aa")
+		(property "Reference" "#PWR0252"
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec9573a-cdaf-43fe-925b-b4b8a2c852e9")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
+		(at 116.84 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f56aa248-8b09-476e-9ef4-a0ea7add7d81")
+		(property "Reference" "LED17"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_C5149201"
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+			(at 116.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1d25ddc4-6e38-441a-957e-8559ab0a2db1")
+		)
+		(pin "2"
+			(uuid "86fe39f9-c716-4c3a-8d6c-f926f115f268")
+		)
+		(pin "1"
+			(uuid "33d96abb-8aca-4830-85bc-7625a7fd2670")
+		)
+		(pin "4"
+			(uuid "f781d1dd-86e2-4c22-b67e-9225247e3eed")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6c670e5-4f2b-467a-b86b-892b49f67020")
+		(property "Reference" "#PWR0256"
+			(at 218.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0514f6c-4dbd-439d-8caa-42c8d944a85a")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa51da25-7e89-4815-b594-c860ee7a80eb")
+		(property "Reference" "#PWR0250"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14051f9a-0a82-446c-9061-494a75454eb2")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)

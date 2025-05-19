@@ -43,8 +43,8 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.7,
+        "silk_text_size_v": 0.7,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
@@ -754,12 +754,16 @@
       "USB 3"
     ],
     [
-      "bac1bbbc-dcbf-46b5-adce-ba05ce3acef2",
+      "8e09fda8-df00-4c38-9e8c-5513d6cadaec",
       "USB 4"
     ],
     [
       "0bf18690-4930-427a-9cf1-9ce3265b6c73",
       "USB 5"
+    ],
+    [
+      "4f7e225d-95a1-444f-b5b1-f7e4555fb7c8",
+      "Neopixels"
     ]
   ],
   "text_variables": {}
