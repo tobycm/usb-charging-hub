@@ -713,7 +713,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -730,12 +730,8 @@
       "Root"
     ],
     [
-      "67983548-32e8-4c76-beda-27becdc558f3",
-      "rp2350b"
-    ],
-    [
-      "6cd18a35-eac9-4d54-ab2a-e3d56b6afb11",
-      "USB A"
+      "bc6f3cf8-0587-42e6-adf7-81d6be60e1cd",
+      "rp2040"
     ],
     [
       "cdc79840-31c5-4d0c-9732-2009c0e35a21",
@@ -746,8 +742,24 @@
       "5V Buck Regulator"
     ],
     [
-      "76114886-6b4c-40d8-9b64-a9a22ac4763d",
-      "USB C"
+      "6cd18a35-eac9-4d54-ab2a-e3d56b6afb11",
+      "USB 1"
+    ],
+    [
+      "ee8ea67a-6561-45c3-ac2d-221b9e4b87f3",
+      "USB 2"
+    ],
+    [
+      "3aa78418-bb67-4a41-954c-f4867499b76d",
+      "USB 3"
+    ],
+    [
+      "bac1bbbc-dcbf-46b5-adce-ba05ce3acef2",
+      "USB 4"
+    ],
+    [
+      "0bf18690-4930-427a-9cf1-9ce3265b6c73",
+      "USB 5"
     ]
   ],
   "text_variables": {}

@@ -1026,16 +1026,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB A Ports"
-		(exclude_from_sim no)
-		(at 211.582 161.544 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "5513c0a2-d36c-41a1-b60a-d8df2248accd")
-	)
 	(text "power led\n"
 		(exclude_from_sim no)
 		(at 35.814 49.022 0)
@@ -1127,16 +1117,6 @@
 			(type default)
 		)
 		(uuid "d12bcc75-79b9-40e5-9968-0d1b91d6631d")
-	)
-	(polyline
-		(pts
-			(xy 191.77 12.7) (xy 191.77 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df5dbce2-c277-4a45-908a-6f6fcc9a2761")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
@@ -1892,7 +1872,7 @@
 		)
 	)
 	(sheet
-		(at 22.86 88.9)
+		(at 124.46 101.6)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1906,9 +1886,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "67983548-32e8-4c76-beda-27becdc558f3")
-		(property "Sheetname" "rp2350b"
-			(at 22.86 88.1884 0)
+		(uuid "0bf18690-4930-427a-9cf1-9ce3265b6c73")
+		(property "Sheetname" "USB 5"
+			(at 124.46 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,8 +1896,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "rp2350b.kicad_sch"
-			(at 22.86 93.2946 0)
+		(property "Sheetfile" "usb5.kicad_sch"
+			(at 124.46 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,13 +1908,13 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
-					(page "3")
+					(page "9")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 48.26 101.6)
+		(at 73.66 101.6)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1948,9 +1928,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "6cd18a35-eac9-4d54-ab2a-e3d56b6afb11")
-		(property "Sheetname" "USB A"
-			(at 48.26 100.8884 0)
+		(uuid "3aa78418-bb67-4a41-954c-f4867499b76d")
+		(property "Sheetname" "USB 3"
+			(at 73.66 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,8 +1938,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usba.kicad_sch"
-			(at 48.26 105.9946 0)
+		(property "Sheetfile" "usb3.kicad_sch"
+			(at 73.66 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1950,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -1990,8 +1970,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "76114886-6b4c-40d8-9b64-a9a22ac4763d")
-		(property "Sheetname" "USB C"
+		(uuid "6cd18a35-eac9-4d54-ab2a-e3d56b6afb11")
+		(property "Sheetname" "USB 1"
 			(at 22.86 100.8884 0)
 			(effects
 				(font
@@ -2000,7 +1980,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usbc.kicad_sch"
+		(property "Sheetfile" "usb1.kicad_sch"
 			(at 22.86 105.9946 0)
 			(effects
 				(font
@@ -2012,7 +1992,7 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
-					(page "9")
+					(page "5")
 				)
 			)
 		)
@@ -2054,7 +2034,91 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 101.6)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bac1bbbc-dcbf-46b5-adce-ba05ce3acef2")
+		(property "Sheetname" "USB 4"
+			(at 99.06 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb4.kicad_sch"
+			(at 99.06 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 88.9)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc6f3cf8-0587-42e6-adf7-81d6be60e1cd")
+		(property "Sheetname" "rp2040"
+			(at 22.86 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2040.kicad_sch"
+			(at 22.86 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(page "2")
 				)
 			)
 		)
@@ -2096,7 +2160,49 @@
 		(instances
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
-					(page "7")
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 101.6)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee8ea67a-6561-45c3-ac2d-221b9e4b87f3")
+		(property "Sheetname" "USB 2"
+			(at 48.26 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb2.kicad_sch"
+			(at 48.26 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0"
+					(page "6")
 				)
 			)
 		)
