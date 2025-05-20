@@ -1508,6 +1508,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:GT-USB-7010ASV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3740,6 +3890,12 @@
 		(uuid "0f5733f0-fd58-4577-9f59-6196d3d964be")
 	)
 	(junction
+		(at 205.74 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "131d4310-b9b4-4f95-8403-ea17f33595cb")
+	)
+	(junction
 		(at 58.42 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3836,6 +3992,12 @@
 		(uuid "49bf65de-27e4-4f8d-80f4-06858d728e9b")
 	)
 	(junction
+		(at 205.74 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54792927-68fa-4972-aaef-4342e744df14")
+	)
+	(junction
 		(at 293.37 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3864,6 +4026,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b26d2cb-afee-4934-96f9-c8d94b58fd39")
+	)
+	(junction
+		(at 205.74 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c768599-5895-41bc-b53e-38d007fd23a2")
 	)
 	(junction
 		(at 170.18 218.44)
@@ -3920,6 +4088,12 @@
 		(uuid "724b6914-ff90-420c-bc08-9e3149a135d4")
 	)
 	(junction
+		(at 312.42 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "728e2234-46c7-43c0-a72e-3c73e7fd9321")
+	)
+	(junction
 		(at 190.5 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3972,6 +4146,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b9bf2b6-1fd7-41ea-a2f4-0f0a4d00e544")
+	)
+	(junction
+		(at 205.74 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a141fa0f-6dfe-416a-b72a-0efb5c022f9e")
 	)
 	(junction
 		(at 199.39 96.52)
@@ -4044,6 +4224,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7162a2b-0fb2-45c3-a6f3-205027fa6398")
+	)
+	(junction
+		(at 312.42 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b91b3f4a-6dc6-4de7-80e0-e3cb7564c5ff")
 	)
 	(junction
 		(at 100.33 193.04)
@@ -4220,6 +4406,16 @@
 			(type default)
 		)
 		(uuid "052c7da7-d2cb-4ebe-ab8e-bd76b04d881a")
+	)
+	(wire
+		(pts
+			(xy 205.74 138.43) (xy 212.09 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082dd33d-5ec6-4b2f-9a66-5d7da0aa2a22")
 	)
 	(wire
 		(pts
@@ -4603,13 +4799,23 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 151.13) (xy 325.12 151.13)
+			(xy 257.81 151.13) (xy 312.42 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b11d0d4-92d3-4206-bff3-631be2f7b4f1")
+	)
+	(wire
+		(pts
+			(xy 205.74 229.87) (xy 212.09 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b91101a-859c-4b87-97d5-15f7c515ae36")
 	)
 	(wire
 		(pts
@@ -4723,6 +4929,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 135.89) (xy 212.09 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cccb2a6-650d-4084-bcd2-1a13cf633303")
+	)
+	(wire
+		(pts
 			(xy 180.34 111.76) (xy 190.5 111.76)
 		)
 		(stroke
@@ -4730,6 +4946,16 @@
 			(type default)
 		)
 		(uuid "4e8f1f84-706c-4f33-baa5-dc98dc33b3cc")
+	)
+	(wire
+		(pts
+			(xy 312.42 151.13) (xy 325.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecaf167-cdc3-47ae-a826-a49f9c2f690c")
 	)
 	(wire
 		(pts
@@ -4943,6 +5169,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 229.87) (xy 227.33 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edf74cf-509f-4931-b2e5-87392e355498")
+	)
+	(wire
+		(pts
 			(xy 135.89 30.48) (xy 152.4 30.48)
 		)
 		(stroke
@@ -4970,6 +5206,16 @@
 			(type default)
 		)
 		(uuid "7298c17d-84f7-4c3d-8815-7bf76a69d792")
+	)
+	(wire
+		(pts
+			(xy 205.74 138.43) (xy 205.74 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fc1b97-9a97-4b95-892a-6c45a5c129cb")
 	)
 	(wire
 		(pts
@@ -5040,6 +5286,26 @@
 			(type default)
 		)
 		(uuid "7b78bdca-c2ae-49e1-a406-948df92e4517")
+	)
+	(wire
+		(pts
+			(xy 205.74 229.87) (xy 205.74 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c18cfe2-0efe-41b4-b659-3e763c94b996")
+	)
+	(wire
+		(pts
+			(xy 222.25 227.33) (xy 227.33 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf095dd-8ffc-41b0-b365-776cdf21a136")
 	)
 	(wire
 		(pts
@@ -5133,6 +5399,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 135.89) (xy 205.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908f02b5-3c14-4a9e-8b88-e1dd99d99961")
+	)
+	(wire
+		(pts
 			(xy 180.34 119.38) (xy 180.34 120.65)
 		)
 		(stroke
@@ -5140,6 +5416,16 @@
 			(type default)
 		)
 		(uuid "921d6799-cc86-47f1-9a3e-44176042cfba")
+	)
+	(wire
+		(pts
+			(xy 205.74 232.41) (xy 205.74 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932ace19-b3cf-4ac3-9ad9-9b3bd4f332d8")
 	)
 	(wire
 		(pts
@@ -5180,6 +5466,16 @@
 			(type default)
 		)
 		(uuid "994f1434-a0d1-4695-a21a-996ba40d3357")
+	)
+	(wire
+		(pts
+			(xy 205.74 140.97) (xy 205.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d447b8-35b1-4bf5-9fdc-dc0b601daedc")
 	)
 	(wire
 		(pts
@@ -5583,6 +5879,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 224.79) (xy 312.42 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94156f9-f3c4-473d-827d-6d823f5d475c")
+	)
+	(wire
+		(pts
 			(xy 190.5 111.76) (xy 190.5 85.09)
 		)
 		(stroke
@@ -5763,6 +6069,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 227.33) (xy 205.74 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9032c87-90f4-4b24-bbb7-c1e8352311a4")
+	)
+	(wire
+		(pts
 			(xy 113.03 40.64) (xy 135.89 40.64)
 		)
 		(stroke
@@ -5780,6 +6096,16 @@
 			(type default)
 		)
 		(uuid "da6ce98b-7bd8-48c7-bc5e-c5a1bf2f09f6")
+	)
+	(wire
+		(pts
+			(xy 222.25 138.43) (xy 227.33 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7845cd-e9ed-47ef-8232-da1925cad89c")
 	)
 	(wire
 		(pts
@@ -5863,6 +6189,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 242.57) (xy 325.12 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1617c9b-1c22-409a-b651-2577d32e23ef")
+	)
+	(wire
+		(pts
 			(xy 165.1 111.76) (xy 170.18 111.76)
 		)
 		(stroke
@@ -5890,6 +6226,16 @@
 			(type default)
 		)
 		(uuid "e375423f-7880-4845-a355-a11007480624")
+	)
+	(wire
+		(pts
+			(xy 312.42 133.35) (xy 312.42 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e47c38-832d-4466-8a43-73415eaca7d2")
 	)
 	(wire
 		(pts
@@ -5963,6 +6309,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 227.33) (xy 212.09 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc3b0b8-d5cf-4417-91a2-3a7129781fa8")
+	)
+	(wire
+		(pts
 			(xy 242.57 242.57) (xy 247.65 242.57)
 		)
 		(stroke
@@ -5993,7 +6349,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 242.57) (xy 325.12 242.57)
+			(xy 257.81 242.57) (xy 312.42 242.57)
 		)
 		(stroke
 			(width 0)
@@ -6183,6 +6539,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 135.89) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe843b22-0be5-41b0-bd0f-cb7126f1188a")
+	)
+	(wire
+		(pts
 			(xy 199.39 91.44) (xy 208.28 91.44)
 		)
 		(stroke
@@ -6190,6 +6556,94 @@
 			(type default)
 		)
 		(uuid "ff877c93-57ce-437d-8166-bfd2c64d52dc")
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 227.33 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "215569f4-af3c-42b3-95bc-4238240c4ec4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.6406 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 227.33 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86e05761-aced-44a4-ab14-8585d396432f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.9657 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 227.33 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b680feb2-fb02-4637-81c7-41f8bb3f8a23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.9657 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 227.33 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7b4f418-b70d-44d9-bb06-f22a678cc098")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.6406 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "D_BUCK_EN"
 		(shape input)
@@ -6268,16 +6722,16 @@
 		)
 		(uuid "20ca20cc-6b02-43b1-aa4c-51124fb635ae")
 	)
-	(hierarchical_label "D_EN"
+	(hierarchical_label "1_BUCK_EN"
 		(shape input)
-		(at 227.33 214.63 180)
+		(at 227.33 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3b75adbb-434f-43f9-9a0c-425e73ff81f7")
+		(uuid "3957b243-1377-4de4-87d3-b796e18e4afa")
 	)
 	(hierarchical_label "U_BUCK_EN"
 		(shape input)
@@ -6300,6 +6754,17 @@
 			(justify right)
 		)
 		(uuid "4461fde6-378c-465e-95fe-c325d79c7289")
+	)
+	(hierarchical_label "2_BUCK_EN"
+		(shape input)
+		(at 227.33 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a6dd2db-41c3-49dc-86fc-daed0ad7115b")
 	)
 	(hierarchical_label "U_EN"
 		(shape input)
@@ -6389,16 +6854,27 @@
 		)
 		(uuid "a6251f09-23f1-467d-9e41-1ba6764a2cad")
 	)
-	(hierarchical_label "U_EN"
+	(hierarchical_label "2_BUCK_EN"
 		(shape input)
-		(at 227.33 123.19 180)
+		(at 144.78 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f831d3fd-77d2-404c-9b97-8a2bfc16370c")
+		(uuid "d4626960-10b4-46b1-8636-9e819b9a0648")
+	)
+	(hierarchical_label "1_BUCK_EN"
+		(shape input)
+		(at 144.78 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "faee239e-1206-46bb-8638-3555da9fc07a")
 	)
 	(hierarchical_label "D_5V"
 		(shape input)
@@ -7348,6 +7824,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 217.17 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16e74742-87ee-423e-bd3f-26e1722f45a0")
+		(property "Reference" "SW15"
+			(at 212.852 226.06 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Latching"
+			(at 223.012 226.06 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_6P-L8.0-W8.0-P2.50"
+			(at 217.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 217.17 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9365f34-a12f-4fa7-92b1-f48f05b021db")
+		)
+		(pin "2"
+			(uuid "ad752b05-e76d-4e33-b3ab-d31932d6dff6")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:GT-USB-7010ASV")
 		(at 39.37 143.51 0)
 		(mirror y)
@@ -7536,6 +8079,73 @@
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
 					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 217.17 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22bb2ae2-0c22-42b6-923f-991ea3458da1")
+		(property "Reference" "SW13"
+			(at 212.852 134.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Latching"
+			(at 223.012 134.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_6P-L8.0-W8.0-P2.50"
+			(at 217.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6eb5e9b-5c01-4e75-96d1-d6ad6f0fe5c4")
+		)
+		(pin "2"
+			(uuid "1b2d5dda-efd8-4514-956d-949c173c7f32")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -8320,7 +8930,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 128.27 0)
+		(at 205.74 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8329,7 +8939,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ad89750-6a40-4eb6-9f25-cc9bbc620c42")
 		(property "Reference" "#PWR0142"
-			(at 205.74 134.62 0)
+			(at 205.74 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 133.35 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,7 +8956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 128.27 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 128.27 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 128.27 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,6 +10515,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 144.78 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88e002ed-8e7d-4fb4-8972-9ea1ba5be421")
+		(property "Reference" "#PWR0280"
+			(at 148.59 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 140.97 210.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 144.78 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5204dbf9-8444-4dbf-a402-2fccd92d212c")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
+					(reference "#PWR0280")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 218.44 0)
 		(unit 1)
@@ -10236,7 +10913,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 219.71 0)
+		(at 205.74 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10245,7 +10922,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c3f5e08-fc6f-4d45-891b-c55ee203b74b")
 		(property "Reference" "#PWR0159"
-			(at 205.74 226.06 0)
+			(at 205.74 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 224.79 0)
+			(at 205.74 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,7 +10939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 219.71 0)
+			(at 205.74 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10271,7 +10948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 219.71 0)
+			(at 205.74 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +10957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 219.71 0)
+			(at 205.74 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
 			(at 245.618 184.912 0)
 			(effects
 				(font
@@ -11476,73 +12153,6 @@
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
 					(reference "C94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 312.42 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9d1f218-d71f-469b-86bd-0bda35a0cd98")
-		(property "Reference" "#PWR0144"
-			(at 312.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 312.42 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e62b221f-fdcb-42d4-b556-8bdd86db2790")
-		)
-		(instances
-			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
-					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -12102,7 +12712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
 			(at 245.618 93.472 0)
 			(effects
 				(font
@@ -12208,73 +12818,6 @@
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
 					(reference "U25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 312.42 224.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3de1185-9f27-40f6-8ab3-6f83383c89b0")
-		(property "Reference" "#PWR0160"
-			(at 312.42 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 312.42 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "697c0d6b-7497-410f-b9b1-fd95818bc15e")
-		)
-		(instances
-			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
-					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -12764,6 +13307,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 144.78 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd1fcf8f-28f2-47d4-b633-0e41263c6e87")
+		(property "Reference" "#PWR0279"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 140.97 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d8c0f30-17da-4b88-b57e-fb011d294199")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 217.17 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3144a39-9065-4472-a99d-5f48722369a1")
+		(property "Reference" "SW16"
+			(at 212.852 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Latching"
+			(at 223.012 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_6P-L8.0-W8.0-P2.50"
+			(at 217.17 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 217.17 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75b03990-67b3-48a4-8a3c-f655f352a463")
+		)
+		(pin "2"
+			(uuid "ef5a78f4-08cd-4292-8fcd-1e0b574e51dc")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 40.64 0)
 		(unit 1)
@@ -12824,6 +13501,73 @@
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 217.17 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dac13666-e3d3-4dc8-b735-dda2b6f1b6cf")
+		(property "Reference" "SW14"
+			(at 212.852 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Latching"
+			(at 223.012 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_6P-L8.0-W8.0-P2.50"
+			(at 217.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89fc5041-ad5c-4889-9917-a110bc3fbfd6")
+		)
+		(pin "2"
+			(uuid "544ba2c1-e9f9-4335-89bf-39d136a2d174")
+		)
+		(instances
+			(project "usb-charging-hub"
+				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/3aa78418-bb67-4a41-954c-f4867499b76d"
+					(reference "SW14")
 					(unit 1)
 				)
 			)

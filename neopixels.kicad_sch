@@ -1239,7 +1239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 116.84 93.98 0)
 			(effects
 				(font
@@ -1391,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 195.58 50.8 0)
 			(effects
 				(font
@@ -2019,7 +2019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 234.95 93.98 0)
 			(effects
 				(font
@@ -2171,7 +2171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 156.21 72.39 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 156.21 115.57 0)
 			(effects
 				(font
@@ -2678,7 +2678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 156.21 50.8 0)
 			(effects
 				(font
@@ -2762,7 +2762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 156.21 93.98 0)
 			(effects
 				(font
@@ -2914,7 +2914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 195.58 93.98 0)
 			(effects
 				(font
@@ -3134,7 +3134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 77.47 50.8 0)
 			(effects
 				(font
@@ -3218,7 +3218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 77.47 93.98 0)
 			(effects
 				(font
@@ -3574,7 +3574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 77.47 72.39 0)
 			(effects
 				(font
@@ -3658,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 116.84 72.39 0)
 			(effects
 				(font
@@ -3742,7 +3742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 234.95 72.39 0)
 			(effects
 				(font
@@ -3962,7 +3962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -4454,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 234.95 115.57 0)
 			(effects
 				(font
@@ -4810,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 195.58 72.39 0)
 			(effects
 				(font
@@ -5030,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 234.95 50.8 0)
 			(effects
 				(font
@@ -5114,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 195.58 115.57 0)
 			(effects
 				(font
@@ -5198,7 +5198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 77.47 115.57 0)
 			(effects
 				(font
@@ -5418,7 +5418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 116.84 115.57 0)
 			(effects
 				(font
