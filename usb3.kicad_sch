@@ -6557,6 +6557,46 @@
 		)
 		(uuid "ff877c93-57ce-437d-8166-bfd2c64d52dc")
 	)
+	(label "2_D-"
+		(at 294.724 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "100ff962-6a5b-4820-a243-161bc79ed633")
+	)
+	(label "1_D-"
+		(at 294.724 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ce00bb2-3a7d-48c8-bdc9-c145386be938")
+	)
+	(label "1_D+"
+		(at 294.64 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46cdb6f7-ab7c-4836-8e24-5a2b3aee536a")
+	)
+	(label "2_D+"
+		(at 294.64 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce618da3-7595-45ed-a812-83526ae0f216")
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 227.33 232.41 180)
@@ -7829,7 +7869,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "16e74742-87ee-423e-bd3f-26e1722f45a0")
 		(property "Reference" "SW15"
@@ -8090,7 +8130,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "22bb2ae2-0c22-42b6-923f-991ea3458da1")
 		(property "Reference" "SW13"
@@ -13379,7 +13419,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d3144a39-9065-4472-a99d-5f48722369a1")
 		(property "Reference" "SW16"
@@ -13512,7 +13552,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "dac13666-e3d3-4dc8-b735-dda2b6f1b6cf")
 		(property "Reference" "SW14"

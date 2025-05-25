@@ -3985,12 +3985,6 @@
 		(uuid "68117104-a499-47bb-9f97-5b94af8be6a3")
 	)
 	(junction
-		(at 242.57 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a21003b-2fff-49a8-9197-e502440e9a17")
-	)
-	(junction
 		(at 26.67 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6330,6 +6324,46 @@
 		)
 		(uuid "ff877c93-57ce-437d-8166-bfd2c64d52dc")
 	)
+	(label "1_D+"
+		(at 294.64 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2095ca9e-c81f-4cf5-906e-c7e492c57243")
+	)
+	(label "2_D-"
+		(at 294.724 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "539fb314-efae-456d-a67d-c5c6e824ab08")
+	)
+	(label "1_D-"
+		(at 294.724 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a6d3ad8-65a3-4bc5-9f38-0c4d4d5ca69b")
+	)
+	(label "2_D+"
+		(at 294.64 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc95dccd-cb30-441d-96b6-1c30286762af")
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 227.33 140.97 180)
@@ -7433,7 +7467,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "14ffefdd-05ff-4971-99f4-9ae2e238cc32")
 		(property "Reference" "SW7"
@@ -8234,72 +8268,6 @@
 			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 242.57 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fd0bb20-b827-4fe9-a797-90532e2eb2cf")
-		(property "Reference" "#PWR089"
-			(at 242.57 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6e687e0-bfb9-459c-ae07-ad9d68bbef3d")
-		)
-		(instances
-			(project "usb-charging-hub"
-				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/6cd18a35-eac9-4d54-ab2a-e3d56b6afb11"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -9598,7 +9566,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "567332db-bf94-41ea-9c0b-ce29d10c9944")
 		(property "Reference" "SW6"
@@ -12285,7 +12253,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ae7906b1-e7df-49dd-8a2c-09c5f513d29c")
 		(property "Reference" "SW5"
@@ -13138,7 +13106,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "cef29fb1-1289-45b7-b710-d3b6bb2ae509")
 		(property "Reference" "SW8"

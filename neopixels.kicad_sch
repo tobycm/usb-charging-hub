@@ -482,6 +482,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 247.65 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "686dbfe0-bcf8-4c9c-adb7-dfcc9f9d6436")
+	)
 	(wire
 		(pts
 			(xy 175.26 83.82) (xy 185.42 83.82)
@@ -914,16 +920,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 107.95) (xy 260.35 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8bf987-bef2-494f-a702-673b98face00")
-	)
-	(wire
-		(pts
 			(xy 96.52 43.18) (xy 96.52 40.64)
 		)
 		(stroke
@@ -1219,7 +1215,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "036f6f0a-9700-450c-b111-e3b5506391da")
@@ -1999,7 +1995,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39487e7e-c9b4-4777-8cb6-4a58c5595680")
@@ -2151,7 +2147,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "456b59b0-c213-4a69-8fa0-6635478c7989")
@@ -2235,7 +2231,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f2902c-d4f6-4122-990e-22d2b54ddb27")
@@ -2586,7 +2582,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 107.95 0)
+		(at 247.65 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2595,7 +2591,7 @@
 		(fields_autoplaced yes)
 		(uuid "59a4e181-bca1-4dfc-855d-991e990aee9f")
 		(property "Reference" "TP1"
-			(at 262.89 102.7429 0)
+			(at 252.73 48.8949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2600,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 262.89 106.5529 0)
+			(at 252.73 52.7049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2609,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 265.43 107.95 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 107.95 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2627,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 107.95 0)
+			(at 247.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2639,7 @@
 			(uuid "30dc10d0-a0d7-427e-aca8-0afeee48c933")
 		)
 		(instances
-			(project ""
+			(project "usb-charging-hub"
 				(path "/04e54dfe-f06f-40ed-b860-573373578cb0/4f7e225d-95a1-444f-b5b1-f7e4555fb7c8"
 					(reference "TP1")
 					(unit 1)
@@ -2742,7 +2738,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68cf9d67-cae1-464f-8225-36508f5bf2db")
@@ -2894,7 +2890,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd373bc-8340-4f4a-a2b3-0918128f7267")
@@ -3198,7 +3194,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "786158ae-0f3d-4153-8402-f8dfa47c672d")
@@ -3554,7 +3550,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "853105a1-c808-4850-b362-0c649bc7c0f7")
@@ -3638,7 +3634,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f0068a-e0b6-4572-bb66-14e62e507818")
@@ -3722,7 +3718,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8db4a0cd-a16b-44f2-9711-8819301816d6")
@@ -4434,7 +4430,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd4cf0fc-a9fa-4f70-b7f6-6c7f250b032e")
@@ -4790,7 +4786,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a5c74c-77bc-4b30-ac66-24c6c46afa3b")
@@ -5094,7 +5090,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5861e9d-a303-4447-8896-0de5725ba458")
@@ -5178,7 +5174,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e608a347-6e1b-4916-9087-38ac68d2327d")
@@ -5398,7 +5394,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56aa248-8b09-476e-9ef4-a0ea7add7d81")

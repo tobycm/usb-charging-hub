@@ -8117,7 +8117,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "1c3ed054-c3d3-429f-bd98-c1ff8a5a08e7")
 		(property "Reference" "SW17"
@@ -11955,7 +11955,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "94a295de-9088-41d9-9d0a-695928388b2d")
 		(property "Reference" "SW19"
@@ -12646,7 +12646,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "a6e7d5e6-413e-4503-b19b-1a6769257e57")
 		(property "Reference" "SW18"
@@ -12877,7 +12877,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "aa40c418-496a-4777-be73-ea4d9cc2db2f")
 		(property "Reference" "SW20"
